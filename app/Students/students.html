@@ -1,0 +1,64 @@
+<h2>Estudiantes</h2>
+
+<div>&nbsp;</div>
+<button class="button button-square button-primary button-small" ng-click="std.openForm()" ng-hide="std.formMode"><i class="fa fa-plus"></i></button>
+<div>&nbsp;</div>
+<div class="card" ng-init="std.getStudents()" ng-hide="std.formMode">
+    <table class="table table-responsive" >
+        <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Genero</th>
+            <th>&nbsp;</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="student in std.students">
+                <td>
+                    <button class="button button-square button-action button-tiny" ng-click="std.openForm(student)"><i class="fa fa-edit"></i></button>
+                </td>
+                <td>{{student.id}}</td>
+                <td>{{student.name}}</td>
+                <td>{{student.lastname}}</td>
+                <td>{{{"m":"Masculino", "f": "Femenino"}[student.gender]}}</td>
+                <td>
+                    <button class="button button-square button-caution button-tiny" ng-click="std.deleteStd(student)"><i class="fa fa-trash"></i></button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<form class="card" ng-submit="std.save(std.student)" ng-show="std.formMode">
+    <div class="card-content">
+        <h3>{{{'false': "Nuevo", 'true': "Editar"}[crs.editMode]}} Estudiante</h3>
+        <div>&nbsp;</div>
+        <div class="form-item">
+            <label for="txtId">Identificación</label>
+            <input class="input" name="txtId" id="txtId" type="text" ng-model="std.student.id" ng-disabled="std.editMode">
+        </div>
+        <div class="form-item">
+            <label for="txtName">Nombre</label>
+            <input class="input" name="txtName" id="txtName" type="text" ng-model="std.student.name">
+        </div>
+        <div class="form-item">
+            <label for="txtLastname">Apellido</label>
+            <input class="input" name="txtLastname" id="txtLastname" type="text" ng-model="std.student.lastname">
+        </div>
+        <div class="form-item">
+            <label for="cbxGender">Género</label>
+            <select class="input" name="cbxGender" id="cbxGender" ng-model="std.student.gender">
+                <option value="m">Masculino</option>
+                <option value="f">Femenino</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit" class="button button-primary button-small"><i class="fa fa-save"></i> Guardar</button>
+            <button type="button" ng-click="std.cancel(false)" class="button button-small"><i class="fa fa-times"></i> Cancelar</button>
+        </div>
+    </div>
+</form>

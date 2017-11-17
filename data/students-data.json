@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Kevin Dario",
+    "lastname": "Tellez Sagbini",
+    "gender": "m"
+  },
+  {
+    "id": 2,
+    "name": "Pepo",
+    "lastname": "Perez",
+    "gender": "m"
+  },
+  {
+    "id": 3,
+    "name": "Valentina",
+    "lastname": "Mendez",
+    "gender": "f"
+  },
+  {
+    "id": 4,
+    "name": "Nataly",
+    "lastname": "Monterrosa",
+    "gender": "f"
+  },
+  {
+    "id": 5,
+    "name": "Mariano",
+    "lastname": "Lora",
+    "gender": "m"
+  },
+  {
+    "id": 6,
+    "name": "Iván",
+    "lastname": "Arrieta",
+    "gender": "m"
+  },
+  {
+    "id": 7,
+    "name": "Jack",
+    "lastname": "Sparrow",
+    "gender": "m"
+  },
+  {
+    "id": 8,
+    "name": "Ana",
+    "lastname": "Melendez",
+    "gender": "f"
+  },
+  {
+    "id": 9,
+    "name": "Soraya",
+    "lastname": "Giha",
+    "gender": "f"
+  },
+  {
+    "id": 2,
+    "name": "Giannina",
+    "lastname": "Arrieta",
+    "gender": "f"
+  }
+]

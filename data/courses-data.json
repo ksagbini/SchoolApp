@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Negocios Internacionales",
+    "desc": "El programa de Negocios Internacionales de la Universidad del Norte responde a la marcada tendencia hacia la globalización de las empresas regionales y nacionales para enfrentar nuevos desafíos gerenciales. Asimismo, cada una de las oportunidades que ofrece esta tendencia y los multiples tratados de libre comercio con Colombia, exigen profesionales que propendan por el desarrollo social y económico de la región y que estén preparados a enfrentar los retos que surgen en el dinámico y cambiante ambiente de los negocios internacionales."
+  },
+  {
+    "id": 2,
+    "name": "Administración de Empresas",
+    "desc": "Atendiendo a la necesidad actual de las organizaciones a nivel nacional e internacional, el programa de Administración de Empresas de la Universidad del Norte forma profesionales con una visión global, capaces de transferir sus conocimientos a las situaciones cambiantes y desafíos de la empresa y a las realidades cotidianas del mundo actual."
+  },
+  {
+    "id": 3,
+    "name": "Contaduría Pública",
+    "desc": "El nuevo Programa de Contaduría Pública, con enfoque internacional responde al inminente avance en la internacionalización de los mercados y culturas, ante lo cual  los negocios están requiriendo de profesionales ampliamente capacitados para ofrecer a las empresas estrategias y soluciones que les permitan competir en el mercado global actual y que a la vez contribuyan al desarrollo económico y social de su país."
+  },
+  {
+    "id": 4,
+    "name": "Ingeniería Civil",
+    "desc": "La Ingeniería Civil es una profesión caracterizada por un alto perfil intelectual, ético y de gran responsabilidad social, con especialidades en diversas áreas: Construcción, Administración, Estructuras, Geotecnia, Vías y Transporte, Hidráulica, Sanitaria y Ambiental."
+  },
+  {
+    "id": 5,
+    "name": "Ingeniería de Sistemas y Computación",
+    "desc": "El Programa de Ingeniería de Sistemas y Computación fue creado el 14 de mayo de 1981, y aprobado por el Ministerio de Educación Nacional, según la resolución No. 000330 del 16 de febrero de 1988. Está acreditado por el Consejo Nacional de Acreditación (CNA), según resolución No. 3428 del 18 de agosto de 2005, a nivel internacional se encuentra acreditado por el Acreditation Board on Engineering and Technology (ABET) desde el 2010."
+  },
+  {
+    "id": 6,
+    "name": "Ingeniería Eléctrica",
+    "desc": "El Programa de Ingeniería Eléctrica tiene el propósito de formar profesionales con amplios conocimientos en sistemas de potencia y control. Capaces de generar conocimiento, resolver problemas, tomar decisiones y comunicarse efectivamente. Con alto sentido de responsabilidad profesional y social, haciendo uso racional, eficiente y sostenible de los recursos."
+  },
+  {
+    "id": 7,
+    "name": "Ingeniería Electrónica",
+    "desc": "El futuro ya llegó! Analiza tu entorno! Grandes tecnologías de telecomunicaciones, industrias automatizadas, robots para diferentes propósitos, tecnologías biomédicas y más! Todo esto es obra de la Ingeniería Electrónica! La profesión que crea y transforma nuevas tecnologías para satisfacer las necesidades de la industria y la sociedad, desenvolviéndose en las áreas de telecomunicaciones, telemática, automatización, robótica y bioingeniería, basadas en circuitos electrónicos analógicos y digitales."
+  },
+  {
+    "id": 8,
+    "name": "Ingeniería Industrial",
+    "desc": "El Programa de Ingeniería Industrial de la Universidad del Norte se crea como respuesta a las necesidades de los sectores productivos de contar con personal calificado. Formar un profesional idóneo para el desarrollo de la región, era y sigue siendo la intención del Programa de Ingeniería Industrial."
+  },
+  {
+    "id": 9,
+    "name": "Ingeniería Mecánica",
+    "desc": "El ingeniero mecánico aplica los conocimientos de las ciencias naturales —física y química— basado en las matemáticas, la estadística y la informática, para diseñar equipos mecánicos y térmicos. Esto lo capacita para identificar y resolver problemas relacionados con las máquinas y con los procesos de transformación y usos del calor y la energía."
+  },
+  {
+    "id": 10,
+    "name": "Medicina",
+    "desc": "El Programa de Medicina, bajo el nuevo esquema administrativo de la División de Ciencias de la Salud, pertenece al Departamento de Medicina, que agrupa además los Postgrados Clínicos, la Maestría en Ciencias Básicas Médicas, laboratorios y grupos de investigación."
+  }
+] 
