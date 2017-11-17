@@ -1,0 +1,26 @@
+{
+  "name": "schoolapp",
+  "version": "1.0.0",
+  "description": "Test frontent developer for NativeApps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksagbini/SchoolApp.git"
+  },
+  "author": "Kevin Tellez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksagbini/SchoolApp/issues"
+  },
+  "homepage": "https://github.com/ksagbini/SchoolApp#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "bootstrap": "^4.0.0-alpha.6",
+    "font-awesome": "^4.7.0",
+    "ngstorage": "^0.3.11"
+  }
+}

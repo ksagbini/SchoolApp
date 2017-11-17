@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="SchoolApp">
+<head>
+    <meta charset="UTF-8">
+    <title ng-bind="$root.title + ' | SchoolApp'">SchoolApp</title>
+
+
+    <base href="/SchoolApp/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/styles.css" media="all" type="text/css">
+    <link rel="stylesheet" href="assets/css/buttons.css" media="all" type="text/css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+
+
+<!--HEADER SECTION-->
+<header class="header">
+    <h1><a href="#">SchoolApp</a></h1>
+</header>
+
+<!--NAVBAR SECTION-->
+<nav class="nav">
+    <h3>MENU</h3>
+    <ul>
+        <li><a href="#!/students" ng-class="$root.active == 'students' ? 'active' : ''"><i class="fa fa-user"></i> Estudiantes</a></li>
+        <li><a href="#!/teachers" ng-class="$root.active == 'teachers' ? 'active' : ''"><i class="fa fa-users"></i> Profesores</a></li>
+        <li><a href="#!/courses" ng-class="$root.active == 'courses' ? 'active' : ''"><i class="fa fa-suitcase"></i> Cursos</a></li>
+    </ul>
+</nav>
+
+<!--CONTENT PAGE SECTION-->
+<section class="content" ng-view></section>
+
+
+
+
+<!--SCRIPTS-->
+<script src="node_modules/angular/angular.js"></script>
+<script src="node_modules/angular-route/angular-route.js"></script>
+<script src="node_modules/ngstorage/ngStorage.js"></script>
+
+
+<script src="app/app.js"></script>
+<script src="app/app.config.js"></script>
+<script src="app/app.utils.js"></script>
+
+
+<script src="app/Login/login.ctrl.js"></script>
+<script src="app/Students/students.ctrl.js"></script>
+<script src="app/Students/students.srv.js"></script>
+<script src="app/Teachers/teachers.ctrl.js"></script>
+<script src="app/Teachers/teachers.srv.js"></script>
+<script src="app/Courses/courses.ctrl.js"></script>
+<script src="app/Courses/courses.srv.js"></script>
+
+
+
+
+</body>
+</html>

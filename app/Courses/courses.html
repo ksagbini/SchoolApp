@@ -1,0 +1,57 @@
+<h2>Cursos</h2>
+
+<div>&nbsp;</div>
+<button class="button button-square button-primary button-small" ng-click="crs.openForm()" ng-hide="crs.formMode"><i class="fa fa-plus"></i></button>
+<div>&nbsp;</div>
+<div class="card" ng-init="crs.getcourses()" ng-hide="crs.formMode">
+    <table class="table table-responsive" >
+        <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Genero</th>
+            <th>&nbsp;</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="course in crs.courses">
+            <td>
+                <button class="button button-square button-action button-tiny" ng-click="crs.openForm(course)"><i class="fa fa-edit"></i></button>
+            </td>
+            <td>{{course.id}}</td>
+            <td>{{course.name}}</td>
+            <td>{{course.desc}}</td>
+            <td>
+                <button class="button button-square button-caution button-tiny" ng-click="crs.deleteCrs(course)"><i class="fa fa-trash"></i></button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<form class="card" ng-submit="crs.save(crs.course)" ng-show="crs.formMode">
+    <div class="card-content">
+        <h3>{{{"false": "Nuevo", "true": "Editar"}[crs.editMode]}} Curso</h3>
+        <div>&nbsp;</div>
+        <div class="form-item">
+            <label for="txtId">Identificación</label>
+            <input class="input" name="txtId" id="txtId" type="text" ng-model="crs.course.id" ng-disabled="crs.editMode">
+        </div>
+        <div class="form-item">
+            <label for="txtName">Nombre</label>
+            <input class="input" name="txtName" id="txtName" type="text" ng-model="crs.course.name">
+        </div>
+        <div class="form-item">
+            <label for="txtLastname">Apellido</label>
+            <input class="input" name="txtLastname" id="txtLastname" type="text" ng-model="crs.course.desc">
+        </div>
+
+        <div>
+            <button type="submit" class="button button-primary button-small"><i class="fa fa-save"></i> Guardar</button>
+            <button type="button" ng-click="crs.cancel(false)" class="button button-small"><i class="fa fa-times"></i> Cancelar</button>
+        </div>
+    </div>
+</form>
